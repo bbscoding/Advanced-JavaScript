@@ -13,3 +13,37 @@ This repository demonstrates core JavaScript concepts with practical examples:
 3. **Closure with Parameters**  
    - Demonstrates how closures can manage dynamic values (like credits, counters, API limits).  
    - Useful for state management and resource control.  
+
+---
+
+## 🔥 New Topics Added
+
+4. **Prototype Inheritance** (`prototype-inheritance.js`)  
+   - Demonstrates how objects can inherit properties and methods from other objects using `Object.setPrototypeOf`.  
+   - Explains the differences between `__proto__` and modern methods like `getPrototypeOf` and `setPrototypeOf`.  
+   - Shows how multiple objects can form a prototype chain.  
+
+5. **Getters & Setters** (`getters-setters.js`)  
+   - Shows how to use `get` and `set` for encapsulating object properties.  
+   - Demonstrates property overriding and prototype chain behavior.  
+   - Compares `Object.keys()` vs `for...in` when iterating over properties.  
+
+6. **Object Constructors** (`object-constructors.js`)  
+   - Uses constructor functions to create reusable object blueprints.  
+   - Adds shared methods via `prototype` to optimize memory usage.  
+   - Explains how instances access properties/methods through the prototype chain.  
+
+7. **ES6 Classes & Inheritance** (`classes-inheritance.js`)  
+   - Demonstrates modern class-based syntax for inheritance.  
+   - Uses `extends` and `super()` to inherit properties and methods.  
+   - Compares class inheritance with traditional prototype-based inheritance.  
+
+---
+
+## 📚 Further Reading
+
+- [MDN Web Docs – Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)  
+- [JavaScript.info – Prototypal Inheritance](https://javascript.info/prototype-inheritance)  
+- [MDN Web Docs – Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)  
+
+---
