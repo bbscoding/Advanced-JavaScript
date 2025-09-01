@@ -47,3 +47,20 @@ This repository demonstrates core JavaScript concepts with practical examples:
 - [MDN Web Docs – Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)  
 
 ---
+
+## 8. Recursion (Recursive Functions)
+- **Concept:** A function that calls itself until a **base case** is met. Great for problems that can be decomposed into smaller subproblems.
+- **Where it shines:** Working with **tree-like data** (DOM, JSON, directory structures), **pagination** (continuation tokens), and elegant definitions (Fibonacci, permutations, search).
+- **Why learn it (Developer gains):**
+  - You learn to **decompose problems** and reason about base/recursive cases.
+  - You can **traverse nested data** and **fetch paginated APIs** more naturally.
+  - You become able to **compare iterative vs recursive** approaches and pick the right trade-off.
+
+**Pros**
+- Often **less code**, more **declarative** and **readable** for hierarchical problems.
+
+**Cons & caveats**
+- Potential **performance** issues (e.g., naive Fibonacci is exponential).
+- **Stack depth** limits (no guaranteed TCO in most JS runtimes).
+- Sometimes **harder to debug** than loops.
+
