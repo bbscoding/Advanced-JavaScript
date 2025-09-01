@@ -64,3 +64,27 @@ This repository demonstrates core JavaScript concepts with practical examples:
 - **Stack depth** limits (no guaranteed TCO in most JS runtimes).
 - Sometimes **harder to debug** than loops.
 
+## 9. Currying (`currying.js`)
+
+- **🔹 Concept:**  
+  A technique from functional programming where a function with multiple parameters is transformed into a sequence of functions, each taking a single parameter.  
+
+- **🔹 Where it shines:**  
+  Useful for **partial application** (pre-filling some arguments), building **customized utility functions**, and creating **reusable pipelines** in functional programming.  
+
+- **🔹 Why learn it (Developer gains):**  
+  - You learn how to **break down complex functions** into smaller, reusable ones.  
+  - You can use **partial application** to simplify repetitive code patterns.  
+  - It builds strong foundations for **functional programming** concepts like composition and higher-order functions.  
+
+**✅ Pros**  
+- Increases **code reusability** and **flexibility**.  
+- Helps in building **configurable functions** without rewriting logic.  
+- Makes function composition and modular code easier.  
+
+**⚠️ Cons & caveats**  
+- Can become **hard to read** when deeply nested.  
+- Works best when the function’s **arity** (number of parameters) is fixed and predictable.  
+
+---
+
